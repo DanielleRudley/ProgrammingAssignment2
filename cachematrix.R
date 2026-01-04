@@ -48,7 +48,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # 4. If the inverse is NULL the current x matrix is retrieved and the solve() function
 #    is used to calculate the inverse
 # 5. Calls the setinverse() function from the makeCacheMatrix environment to save the 
-#    newly calculated inverse so it retrieved when getinverse() is called
+#    newly calculated inverse so it is retrieved when getinverse() is called
 # 6. Returns the inverse matrix
 
 # 1. 
